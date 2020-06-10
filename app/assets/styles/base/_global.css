@@ -1,0 +1,33 @@
+@media (min-width: 674px){
+    html, body{
+        height:100%;
+    }
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+section, footer{
+    padding: 3.5rem;
+}
+
+@media(max-width: 751px){
+    section, footer{
+        padding: 2rem;
+    }
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    color: $mainGrey;
+}
+
+h2, a, nav{
+    font-family: 'Raleway', sans-serif;
+}
